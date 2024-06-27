@@ -24,6 +24,13 @@
         "version": null,
         "systems": null
       },
+      "libmysqlclient": {
+        "pkg-path": "libmysqlclient",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
+      },
       "libxml2": {
         "pkg-path": "libxml2",
         "pkg-group": null,
@@ -467,6 +474,126 @@
         "dev": "/nix/store/jfkrcg2xv4b2jlls4cl4qnw124c18bf6-imagemagick-7.1.1-32-dev",
         "doc": "/nix/store/66ma6kbadfqwrhnihkhv7lg57qlkyjm4-imagemagick-7.1.1-32-doc",
         "out": "/nix/store/1izdxwml9nsifjrh53rdfiglhjmrnx2s-imagemagick-7.1.1-32"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libmysqlclient",
+      "broken": false,
+      "derivation": "/nix/store/s29cpk5vhxsvcj1sd26sa7dhihy9wakf-mariadb-connector-c-3.3.5.drv",
+      "description": "Client library that can be used to connect to MySQL or MariaDB",
+      "install_id": "libmysqlclient",
+      "license": "LGPL-2.1-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "mariadb-connector-c-3.3.5",
+      "pname": "libmysqlclient",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "mariadb-connector-c-3.3.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/kgr3yccjmcjiqca25qjdish3ywz2lxxz-mariadb-connector-c-3.3.5-dev",
+        "out": "/nix/store/yv1kinxw97fh71pvrm0nph4831kykrfq-mariadb-connector-c-3.3.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libmysqlclient",
+      "broken": false,
+      "derivation": "/nix/store/lhwfsxvwyf8hd3j64326kgk1qy6iqbmz-mariadb-connector-c-3.3.5.drv",
+      "description": "Client library that can be used to connect to MySQL or MariaDB",
+      "install_id": "libmysqlclient",
+      "license": "LGPL-2.1-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "mariadb-connector-c-3.3.5",
+      "pname": "libmysqlclient",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "mariadb-connector-c-3.3.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/m6a4lc3xzp89x5jir0f0ak7lhg72p0ha-mariadb-connector-c-3.3.5-dev",
+        "out": "/nix/store/9x0gk8sjzk6s7p8d7icp6b9bwpb6c228-mariadb-connector-c-3.3.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libmysqlclient",
+      "broken": false,
+      "derivation": "/nix/store/v7hjsgyi4b67izg0zr53bz32x4ggxsn3-mariadb-connector-c-3.3.5.drv",
+      "description": "Client library that can be used to connect to MySQL or MariaDB",
+      "install_id": "libmysqlclient",
+      "license": "LGPL-2.1-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "mariadb-connector-c-3.3.5",
+      "pname": "libmysqlclient",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "mariadb-connector-c-3.3.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/3zrn20alr5nyrqbw4ck4rmh7vdalxyn2-mariadb-connector-c-3.3.5-dev",
+        "out": "/nix/store/pbsnx5n0w1gdldphd4r1dpan4akk69xb-mariadb-connector-c-3.3.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "libmysqlclient",
+      "broken": false,
+      "derivation": "/nix/store/6jkngrdprvi05kd9bzi3ynyll3cvfp11-mariadb-connector-c-3.3.5.drv",
+      "description": "Client library that can be used to connect to MySQL or MariaDB",
+      "install_id": "libmysqlclient",
+      "license": "LGPL-2.1-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "mariadb-connector-c-3.3.5",
+      "pname": "libmysqlclient",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "mariadb-connector-c-3.3.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/fp8v5crjcvclc2wfp1ycshyhl8ir9jhd-mariadb-connector-c-3.3.5-dev",
+        "out": "/nix/store/j4v3byv2scsa3fz577y883aibmrl4b2v-mariadb-connector-c-3.3.5"
       },
       "system": "x86_64-linux",
       "group": "toplevel",

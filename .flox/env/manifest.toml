@@ -15,6 +15,7 @@ gcc-unwrapped.pkg-path = "gcc-unwrapped"
 gnumake.pkg-path = "gnumake"
 postgresql.pkg-path = "postgresql"
 imagemagick.pkg-path = "imagemagick"
+libmysqlclient.pkg-path = "libmysqlclient"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^18.4.2", pkg-path = "nodejs_18" }
 

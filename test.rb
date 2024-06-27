@@ -1,3 +1,5 @@
+#!/usr/bin/env bundle exec ruby
+
 require 'bundler'
 require 'colorize'
 
