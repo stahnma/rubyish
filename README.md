@@ -16,3 +16,13 @@ fast_jsonparser not working
 # Notes
 - Look at miniracter instead of rubyracer
 - I need to file enhancement for cross platform stuff
+
+# The goal
+
+Get the top 15 or so rubygems that have Native Extensions building with Flox.
+See `Gemfile` for the list (the commented out ones are broken still)
+
+# The test
+The `test.rb` file tries to load/require all the gem to ensure they at least can be `required`.
+
+    bundle exec ./test.rb
