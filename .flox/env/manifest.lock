@@ -36,6 +36,9 @@
       "openssl": {
         "pkg-path": "openssl"
       },
+      "pkg-config": {
+        "pkg-path": "pkg-config"
+      },
       "postgresql": {
         "pkg-path": "postgresql"
       },
@@ -45,7 +48,7 @@
     },
     "vars": {},
     "hook": {
-      "on-activate": "  unset CPATH\n  bundle config set --local path 'vendor'\n#   # Set variables, create files and directories\n#   venv_dir=\"$(mktemp -d)\"\n#   export venv_dir\n#\n#   # Perform initialization steps, e.g. create a python venv\n#   python -m venv \"$venv_dir\"\n "
+      "on-activate": "  unset CPATH\n  export C_INCLUDE_PATH=$FLOX_ENV/include\n  bundle config set --local path 'vendor'\n "
     },
     "profile": {},
     "options": {
@@ -1251,6 +1254,134 @@
         "doc": "/nix/store/fq20cpxp7bgx9xlc4hq3l99k7r4w4m4p-openssl-3.0.13-doc",
         "man": "/nix/store/sss9pw9l1prvc0a1b01ycrn0xwxxvh3x-openssl-3.0.13-man",
         "out": "/nix/store/gp504m4dvw5k2pdx6pccf1km79fkcwgf-openssl-3.0.13"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/my5dp6sh6gfpsyb8mi19szz105kn35rl-pkg-config-wrapper-0.29.2.drv",
+      "description": "A tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-0.29.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/9b7lg682crnvqc33b5asgy0y96kyjak3-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/a9s69nsf0di9md3qpjn9acj29fgv9xbp-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/b5hlaiv3vg8qgr3vhsw78cjh5s2zrph9-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/qkbq2afn03d90n0xm8dy2dqdaip0cw49-pkg-config-wrapper-0.29.2.drv",
+      "description": "A tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-0.29.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/55g0gmd0l4746d03c25vjbr7javhls80-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/wfqag2z0pzw8ll81vkw1dymklj8vw2hz-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/fcygv8mslxfn6d37p2kb3r6nc0hmjaq0-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/a4z7ywgp9v9i68435lzaz966smsy1mg6-pkg-config-wrapper-0.29.2.drv",
+      "description": "A tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-0.29.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/m8gynrykzwvk7sqbkdzjnn7b27pw8kjj-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/w4d8b6vayk2f40vkwb8w8ajg0v782bz5-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/sblqjb14ckz1xrzr4an26ff70dx9v8cl-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/gk1khr1qwpnx89j8a7igsma9383fww5m-pkg-config-wrapper-0.29.2.drv",
+      "description": "A tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "57610d2f8f0937f39dbd72251e9614b1561942d8",
+      "rev_count": 633517,
+      "rev_date": "2024-05-31T23:09:26Z",
+      "scrape_date": "2024-06-04T09:46:16Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-0.29.2",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "doc": "/nix/store/lr3hinjbsqmrvb50rna4qp16k54bfmad-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/dw5vcklk05sxpgc4axh72cfn5qribwnf-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/zdvrzlvzbn9ymb0z8na50w995j8np16z-pkg-config-wrapper-0.29.2"
       },
       "system": "x86_64-linux",
       "group": "toplevel",

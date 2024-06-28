@@ -21,6 +21,7 @@ openssl.pkg-path = "openssl"
 glibc.pkg-path = "glibc"
 glibc.systems = [ "x86_64-linux" ]
 libyaml.pkg-path = "libyaml"
+pkg-config.pkg-path = "pkg-config"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^18.4.2", pkg-path = "nodejs_18" }
 
@@ -39,13 +40,8 @@ libyaml.pkg-path = "libyaml"
 [hook]
  on-activate = '''
   unset CPATH
+  export C_INCLUDE_PATH=$FLOX_ENV/include
   bundle config set --local path 'vendor'
-#   # Set variables, create files and directories
-#   venv_dir="$(mktemp -d)"
-#   export venv_dir
-#
-#   # Perform initialization steps, e.g. create a python venv
-#   python -m venv "$venv_dir"
  '''
 
 # Scripts defined in the `[profile]` section are *sourced* by *your shell* and
