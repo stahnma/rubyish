@@ -4,53 +4,110 @@
     "version": 1,
     "install": {
       "binutils": {
-        "pkg-path": "binutils"
+        "pkg-path": "binutils",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "gcc-unwrapped": {
-        "pkg-path": "gcc-unwrapped"
+        "pkg-path": "gcc-unwrapped",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "glibc": {
         "pkg-path": "glibc",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
         "systems": [
           "x86_64-linux"
         ]
       },
       "gnumake": {
-        "pkg-path": "gnumake"
+        "pkg-path": "gnumake",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "imagemagick": {
-        "pkg-path": "imagemagick"
+        "pkg-path": "imagemagick",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "libmysqlclient": {
-        "pkg-path": "libmysqlclient"
+        "pkg-path": "libmysqlclient",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "libxml2": {
-        "pkg-path": "libxml2"
+        "pkg-path": "libxml2",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "libxslt": {
-        "pkg-path": "libxslt"
+        "pkg-path": "libxslt",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "libyaml": {
-        "pkg-path": "libyaml"
+        "pkg-path": "libyaml",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "openssl": {
-        "pkg-path": "openssl"
+        "pkg-path": "openssl",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "pkg-config": {
-        "pkg-path": "pkg-config"
+        "pkg-path": "pkg-config",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "postgresql": {
-        "pkg-path": "postgresql"
+        "pkg-path": "postgresql",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       },
       "ruby": {
-        "pkg-path": "ruby"
+        "pkg-path": "ruby",
+        "pkg-group": null,
+        "priority": null,
+        "version": null,
+        "systems": null
       }
     },
     "vars": {},
     "hook": {
       "on-activate": "  unset CPATH\n  bundle config set --local path 'vendor'\n "
     },
-    "profile": {},
+    "profile": {
+      "common": null,
+      "bash": null,
+      "zsh": null,
+      "fish": null,
+      "tcsh": null
+    },
     "options": {
       "systems": [
         "aarch64-darwin",
@@ -59,9 +116,14 @@
         "x86_64-linux"
       ],
       "allow": {
+        "unfree": null,
+        "broken": null,
         "licenses": []
       },
-      "semver": {}
+      "semver": {
+        "allow-pre-releases": null
+      },
+      "cuda-detection": null
     }
   },
   "packages": [
