@@ -4,110 +4,53 @@
     "version": 1,
     "install": {
       "binutils": {
-        "pkg-path": "binutils",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "binutils"
       },
       "gcc-unwrapped": {
-        "pkg-path": "gcc-unwrapped",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "gcc-unwrapped"
       },
       "glibc": {
         "pkg-path": "glibc",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
         "systems": [
           "x86_64-linux"
         ]
       },
       "gnumake": {
-        "pkg-path": "gnumake",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "gnumake"
       },
       "imagemagick": {
-        "pkg-path": "imagemagick",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "imagemagick"
       },
       "libmysqlclient": {
-        "pkg-path": "libmysqlclient",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "libmysqlclient"
       },
       "libxml2": {
-        "pkg-path": "libxml2",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "libxml2"
       },
       "libxslt": {
-        "pkg-path": "libxslt",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "libxslt"
       },
       "libyaml": {
-        "pkg-path": "libyaml",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "libyaml"
       },
       "openssl": {
-        "pkg-path": "openssl",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "openssl"
       },
       "pkg-config": {
-        "pkg-path": "pkg-config",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "pkg-config"
       },
       "postgresql": {
-        "pkg-path": "postgresql",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "postgresql"
       },
       "ruby": {
-        "pkg-path": "ruby",
-        "pkg-group": null,
-        "priority": null,
-        "version": null,
-        "systems": null
+        "pkg-path": "ruby"
       }
     },
     "vars": {},
     "hook": {
-      "on-activate": "  unset CPATH\n  export C_INCLUDE_PATH=$FLOX_ENV/include\n  bundle config set --local path 'vendor'\n "
+      "on-activate": "  unset CPATH\n  bundle config set --local path 'vendor'\n "
     },
-    "profile": {
-      "common": null,
-      "bash": null,
-      "zsh": null,
-      "fish": null,
-      "tcsh": null
-    },
+    "profile": {},
     "options": {
       "systems": [
         "aarch64-darwin",
@@ -116,14 +59,9 @@
         "x86_64-linux"
       ],
       "allow": {
-        "unfree": null,
-        "broken": null,
         "licenses": []
       },
-      "semver": {
-        "allow-pre-releases": null
-      },
-      "cuda-detection": null
+      "semver": {}
     }
   },
   "packages": [

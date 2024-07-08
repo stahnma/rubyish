@@ -40,7 +40,6 @@ pkg-config.pkg-path = "pkg-config"
 [hook]
  on-activate = '''
   unset CPATH
-  export C_INCLUDE_PATH=$FLOX_ENV/include
   bundle config set --local path 'vendor'
  '''
 
