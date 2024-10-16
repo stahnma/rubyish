@@ -54,10 +54,10 @@
       }
     },
     "hook": {
-      "on-activate": "  unset CPATH\n  bundle config set --local path 'vendor'\n "
+      "on-activate": "  unset CPATH\n  bundle config build.pg --with-pg-include=$FLOX_ENV/include\n  bundle config set --local path 'vendor'\n "
     },
     "profile": {
-      "common": "echo \"\"\necho \"     ╔═══════════════════════════════════════════════╗\"\necho \"     ║                                               ║\"\necho \"     ║  Run `bundle` to finish the setup of          ║\"\necho \"     ║  of your project                              ║\"\necho \"     ║                                               ║\"\necho \"     ║  You can also select a differnet ruby version ║\"\necho \"     ║    using `flox edit`                          ║\"\necho \"     ╚═══════════════════════════════════════════════╝\"\necho \"\"\n"
+      "common": "echo ''\necho '     ╔═══════════════════════════════════════════════╗'\necho '     ║                                               ║'\necho '     ║  Run `bundle` to finish the setup of          ║'\necho '     ║  of your project                              ║'\necho '     ║                                               ║'\necho '     ║  You can also select a differnet ruby version ║'\necho '     ║    using `flox edit`                          ║'\necho '     ╚═══════════════════════════════════════════════╝'\necho ''\n"
     },
     "options": {
       "systems": [

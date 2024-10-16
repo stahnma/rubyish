@@ -1,2 +1,3 @@
 ---
 BUNDLE_PATH: "vendor"
+BUNDLE_BUILD__PG: "--with-pg-include=/Users/stahnma/.cache/flox/run/stahnma/rubyish.2a787fee/include"

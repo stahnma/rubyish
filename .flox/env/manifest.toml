@@ -33,21 +33,22 @@ which.pkg-path = "which"
 [hook]
  on-activate = '''
   unset CPATH
+  bundle config build.pg --with-pg-include=$FLOX_ENV/include
   bundle config set --local path 'vendor'
  '''
 
 [profile]
 common = '''
-echo ""
-echo "     ╔═══════════════════════════════════════════════╗"
-echo "     ║                                               ║"
-echo "     ║  Run `bundle` to finish the setup of          ║"
-echo "     ║  of your project                              ║"
-echo "     ║                                               ║"
-echo "     ║  You can also select a differnet ruby version ║"
-echo "     ║    using `flox edit`                          ║"
-echo "     ╚═══════════════════════════════════════════════╝"
-echo ""
+echo ''
+echo '     ╔═══════════════════════════════════════════════╗'
+echo '     ║                                               ║'
+echo '     ║  Run `bundle` to finish the setup of          ║'
+echo '     ║  of your project                              ║'
+echo '     ║                                               ║'
+echo '     ║  You can also select a differnet ruby version ║'
+echo '     ║    using `flox edit`                          ║'
+echo '     ╚═══════════════════════════════════════════════╝'
+echo ''
 '''
 
 [options]
