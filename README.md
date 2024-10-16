@@ -1,7 +1,6 @@
-# Rubyish
+# Ruby
 
-This is a project to play with Ruby and Flox and see if we can get an
-environment where most ruby tools work.
+This is a ruby environment for developing using Ruby and Flox.
 
 # The goal
 
